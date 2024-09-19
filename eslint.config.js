@@ -9,8 +9,13 @@ export default [
       sourceType: "module",
     },
     rules: {
-      "no-unused-vars": "warn",
+      "no-unused-vars": "error",
       semi: ["error", "always"],
+      'eqeqeq': ['error', 'always'],
+      'prefer-const': ['error', {
+      destructuring: 'any',
+      ignoreReadBeforeAssign: false
+      }]
     },
   },
 ];
