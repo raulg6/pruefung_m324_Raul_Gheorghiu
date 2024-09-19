@@ -1,9 +1,8 @@
 import chalk from "chalk";
-let myUnusedvariable = 0;
 
 console.log(chalk.blue("it works"));
 
-if (12 == 'var')
+if ('var' === 'var')
     {
         console.log(chalk.green('success'));
     }
